@@ -234,7 +234,7 @@ header, .container.about-container, .container.interns-container, .container.pro
 .project-title {
     width: 100%;
     text-align: center;
-    color: #fff;
+    color: azure;
     font-size: 120%;
     font-weight: 100;
     text-transform: uppercase;
@@ -245,7 +245,7 @@ header, .container.about-container, .container.interns-container, .container.pro
 }
 
 .chess-sym, .domino-sym, .fa.laptop-sym {
-    color: #fff;
+    color: azure;
     font-size: 200%;
     font-weight: 400;
     display: inline-block;
@@ -262,7 +262,7 @@ header, .container.about-container, .container.interns-container, .container.pro
     text-align: center;
     line-height: 145%;
     font-weight: 100;
-    color: #fff;
+    color: azure;
     width: 90%;
     margin-left: 5%;
 }
@@ -296,7 +296,7 @@ header, .container.about-container, .container.interns-container, .container.pro
     font-size: 400%;
     padding: 5%;
     text-decoration: none;
-    border: 4px solid #fff;
+    border: 4px solid azure;
     border-radius: 25%;
     min-width: 40px;
     opacity: 0.9;
@@ -327,7 +327,7 @@ header, .container.about-container, .container.interns-container, .container.pro
     color: rgba(235, 235, 235, 0.9);
     font-size: 140%;
     padding: 8px 10px;
-    border: 1px solid #fff;
+    border: 1px solid azure;
     border-radius: 10%;
     text-decoration: none;
     transition: color 0.3s, border 0.3s;
