@@ -1,0 +1,186 @@
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Tablets & Laptops (990px-1200px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 1200px) {
+
+    .about-text-box {
+        font-weight: 600;
+        padding: 40px;
+        border-radius: 20%;
+    }
+
+    .proj-desc {
+        font-weight: 500;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Tablets (768px-990px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 990px) {
+
+    .social-btn:link, .social-btn:visited {
+        font-size: 300%;
+        padding: 4%;
+    }
+
+    .col-lg-4.logo {
+        padding-left: 10%;
+    }
+
+    .proj-box {
+        width: 70%;
+        min-height: 540px;
+        border-radius: 5%;
+        margin: 0 auto;
+    }
+
+    .proj-desc {
+        font-size: 110%;
+        text-align: center;
+        line-height: 200%;
+        font-weight: 100;
+        color: #fff;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .code-link:link, .code-link:visited {
+        margin-top: 50px;
+        font-size: 180%;
+    }
+
+    .projects {
+        text-align: center;
+    }
+
+    .about-text-box {
+        margin: 0 auto;
+        width: 80%;
+        padding: 60px;
+    }
+
+    .name-text {
+        font-size: 400%;
+        margin-top: 10%;
+    }
+
+    .name-subtext {
+        font-size: 180%;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Phones/Small Tablets (581px-767px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+
+    .name {
+        font-size: 400%;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .nav-socials {
+        display: inline-block;
+        width: 40%;
+        text-decoration: none;
+    }
+
+    .nav-social-btn:link, .nav-social-btn:visited {
+        color: azure;
+        margin-right: 20%;
+    }
+
+    .nav-social-btn:link:last-child, .nav-social-btn:visited:last-child {
+        margin-right: 0;
+    }
+
+    .nav-social-btn:hover, .nav-social-btn:active {
+        text-decoration: none;
+        opacity: 0.6;
+    }
+
+    .about-text-box {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .proj-box {
+        width: 100%;
+        min-height: 540px;
+        border-radius: 5%;
+        margin: 0 auto;
+    }
+
+    .social-btn:link, .social-btn:visited {
+        font-size: 200%;
+        margin: 2%;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Big Phones (481px-580px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 580px) {
+
+    .name {
+        font-size: 300%;
+    }
+
+    .name-text {
+        font-size: 250%;
+        margin-top: 15%;
+    }
+}
+
+/* ------------------------------------------------------------------------------ */
+/* ----- Small Phones (0-480px) ----- */
+/* ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 480px) {
+    body {
+        border: 2px solid green;
+    }
+
+    .name {
+        font-size: 150%;
+    }
+
+    .name-text {
+        font-size: 200%;
+        margin-top: 40%;
+    }
+
+    .underline {
+        display: none;
+    }
+
+    .nav-socials {
+        display: inline-block;
+        width: 50%;
+        text-decoration: none;
+        font-size: 160%;
+    }
+
+    .name-subtext {
+        font-size: 130%;
+    }
+
+    .about-text-box {
+        font-size: 80%;
+        padding: 30px;
+    }
+
+    .proj-desc {
+        font-size: 100%;
+        line-height: 120%;
+        font-weight: 100;
+    }
+}

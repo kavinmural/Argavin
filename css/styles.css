@@ -19,7 +19,6 @@ html, body {
     margin: 0;
     padding: 0;
     color: azure;
-    font-size: 1em;
     font-family: "Hind", sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
@@ -69,13 +68,6 @@ nav {
     overflow: hidden;
 }
 
-.logo {
-    height: 40px;
-    margin-top: 2%;
-    width: auto;
-    opacity: 0.6;
-}
-
 .nav-bar {
     list-style: none;
 }
@@ -122,6 +114,13 @@ nav {
 
 .nav-bar li a:hover::after{
     opacity: 1;
+}
+
+.nav-socials {
+    display: none;
+    font-size: 200%;
+    text-decoration: none;
+    margin-top: 5%;
 }
 
 /* --------------------------------------- */
@@ -240,8 +239,8 @@ header, .container.about-container, .container.interns-container, .container.pro
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-top: 35px;
-    margin-bottom: 20px;
+    margin-top: 8%;
+    padding-top: 4%;
     cursor: default;
 }
 
@@ -255,7 +254,7 @@ header, .container.about-container, .container.interns-container, .container.pro
 }
 
 .fa.laptop-sym {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .proj-desc {
@@ -282,8 +281,8 @@ header, .container.about-container, .container.interns-container, .container.pro
     width: 70%;
     background-color: rgb(240, 255, 255, 0.6);
     border-radius: 35%;
-    padding: 50px;
-    margin: 20px;
+    padding: 12%;
+    margin: 10%;
 }
 
 /* --------------------------------------- */
@@ -292,7 +291,7 @@ header, .container.about-container, .container.interns-container, .container.pro
 
 .social-btn:link, .social-btn:visited {
     display: inline-block;
-    color: #fff;
+    color: azure;
     margin-right: 10%;
     font-size: 400%;
     padding: 5%;
