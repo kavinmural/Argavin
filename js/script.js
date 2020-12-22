@@ -1,4 +1,9 @@
+$(window).on("load", setTimeout(function() {
+    $(".loader-wrapper").fadeOut(1500);
+}, 800));
+
 $(document).ready(function() {
+
 /* Smooth Scrolling Nav */
 
     // Select all links with hashes
@@ -36,5 +41,17 @@ $(document).ready(function() {
         });
         }
     }
+    });
+
+    /* Animations */
+    var typed = new Typed('.type-animation', {
+        strings: [
+            "Software Developer",
+            "Computer Science",
+            "UI/UX Design"
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true
     });
 });
