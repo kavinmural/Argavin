@@ -1,6 +1,6 @@
-$(window).on("load", setTimeout(function() {
-    $(".loader-wrapper").fadeOut(1500);
-}, 800));
+$(window).on("load", function() {
+    $(".loader-wrapper").delay(800).fadeOut(1500);
+});
 
 $(document).ready(function() {
 
