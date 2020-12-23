@@ -171,6 +171,7 @@ header, .container.about-container, .container.interns-container, .container.pro
     text-align: center;
     -webkit-box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
 }
 
 .proj-box {
@@ -181,6 +182,11 @@ header, .container.about-container, .container.interns-container, .container.pro
     text-align: center;
     -webkit-box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.socials {
+    opacity: 0;
 }
 
 /* --------------------------------------- */
@@ -431,4 +437,8 @@ footer {
     100% {
       height: 0%;
     }
+  }
+
+  .display-item {
+      opacity: 1;
   }

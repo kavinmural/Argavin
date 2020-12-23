@@ -5,12 +5,9 @@ $(window).on("load", function() {
 $(document).ready(function() {
 
 /* Smooth Scrolling Nav */
-
+    /*
     // Select all links with hashes
     $('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
     .click(function(event) {
     // On-page links
     if (
@@ -41,7 +38,7 @@ $(document).ready(function() {
         });
         }
     }
-    });
+    }); */
 
     /* Animations */
     var typed = new Typed('.type-animation', {
@@ -54,4 +51,43 @@ $(document).ready(function() {
         backSpeed: 70,
         loop: true
     });
+
+    // Scroll Magic
+    var Controller = new ScrollMagic.Controller();
+
+    var about_section = new ScrollMagic.Scene({
+        triggerElement: '.about-text-box'
+    })
+    .setClassToggle(".about-text-box", "display-item")
+    .addTo(Controller)
+
+    var about_section = new ScrollMagic.Scene({
+        triggerElement: '.about-text-box'
+    })
+    .setClassToggle(".about-text-box", "animate__slideInRight")
+    .addTo(Controller)
+
+    var projects_section = new ScrollMagic.Scene({
+        triggerElement: '.proj-box'
+    })
+    .setClassToggle(".proj-box", "display-item")
+    .addTo(Controller)
+
+    var projects_section = new ScrollMagic.Scene({
+        triggerElement: '.proj-box'
+    })
+    .setClassToggle(".proj-box", "animate__fadeInRight")
+    .addTo(Controller)
+
+    var contact_section = new ScrollMagic.Scene({
+        triggerElement: '.socials'
+    })
+    .setClassToggle(".socials", "display-item")
+    .addTo(Controller)
+
+    var contact_section = new ScrollMagic.Scene({
+        triggerElement: '.socials'
+    })
+    .setClassToggle(".socials", "animate__fadeIn")
+    .addTo(Controller)
 });
